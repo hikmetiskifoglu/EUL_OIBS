@@ -1,0 +1,388 @@
+﻿<?xml version="1.0"?>
+<StudentList>
+	<Student>
+		<StudentNo>140306</StudentNo>
+		<Name>OLGU</Name>
+		<Surname>ACUN</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>150030</StudentNo>
+		<Name>CENK ALEN</Name>
+		<Surname>SEHIROGLU</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>164602</StudentNo>
+		<Name>FUNGAI</Name>
+		<Surname>GADZIRA</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>170086</StudentNo>
+		<Name>MERTCAN</Name>
+		<Surname>ARAS</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>170090</StudentNo>
+		<Name>MUSTAFA BERKIN</Name>
+		<Surname>CIHAN</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>170994</StudentNo>
+		<Name>OKTAY</Name>
+		<Surname>ÖZKARA</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>170996</StudentNo>
+		<Name>ÖMER ARDA</Name>
+		<Surname>KAVAS</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>173032</StudentNo>
+		<Name>SAHSENEM CEREN</Name>
+		<Surname>KARALI</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>174528</StudentNo>
+		<Name>BEISE</Name>
+		<Surname>ISHIMWE</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>174559</StudentNo>
+		<Name>MAHMOUD ALAAELDIN AHMED</Name>
+		<Surname>ELSAADAWY</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>174682</StudentNo>
+		<Name>HILARIO JUNIOR</Name>
+		<Surname>NENGARE</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>174758</StudentNo>
+		<Name>VIGILANCE</Name>
+		<Surname>DANDE</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>180042</StudentNo>
+		<Name>BEDIRHAN</Name>
+		<Surname>SAGLAM</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>180151</StudentNo>
+		<Name>ALI HIKMET</Name>
+		<Surname>KEKLIK</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>180333</StudentNo>
+		<Name>RIDVAN ATALAY</Name>
+		<Surname>AYDOGDU</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>180343</StudentNo>
+		<Name>ALI CAN</Name>
+		<Surname>DOGAN</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>180443</StudentNo>
+		<Name>RECEP</Name>
+		<Surname>PAZARLI</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>180780</StudentNo>
+		<Name>MÜRVET IREM</Name>
+		<Surname>YAPRAK</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>181375</StudentNo>
+		<Name>MERVE</Name>
+		<Surname>ALTINISIK</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>183025</StudentNo>
+		<Name>YASIN</Name>
+		<Surname>ÖZELÇI</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184112</StudentNo>
+		<Name>KENAN</Name>
+		<Surname>ALZAKOUT</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184149</StudentNo>
+		<Name>BAURZHAN</Name>
+		<Surname>ZHAMANKULOV</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184218</StudentNo>
+		<Name>SYED KASHIF ALI</Name>
+		<Surname>SHAH</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184311</StudentNo>
+		<Name>ABDUL REHMAN</Name>
+		<Surname>KHAN</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184385</StudentNo>
+		<Name>SIKANDAR</Name>
+		<Surname>ALI</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184400</StudentNo>
+		<Name>ABDUL</Name>
+		<Surname>BASIT</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184477</StudentNo>
+		<Name>RAJA SAGAR HANNAN</Name>
+		<Surname>KAYANI</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184639</StudentNo>
+		<Name>ADEDOLAPO SOLOMON</Name>
+		<Surname>ONILUDE</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184656</StudentNo>
+		<Name>CHIAZOKA MIRIAM</Name>
+		<Surname>ONONIWU</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184662</StudentNo>
+		<Name>MUHAMMAD MUZAMMAL</Name>
+		<Surname>AHMAD</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>184680</StudentNo>
+		<Name>CHISEPO</Name>
+		<Surname>MUPWAYA</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>191228</StudentNo>
+		<Name>ZÜBEYIR KAAN</Name>
+		<Surname>ZÜNBÜLCAN</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>193032</StudentNo>
+		<Name>BERKAY</Name>
+		<Surname>ÖZTÜRK</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>193063</StudentNo>
+		<Name>MERVE</Name>
+		<Surname>KIRMIZITAS</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194009</StudentNo>
+		<Name>KANGNI JEAN FABRICE</Name>
+		<Surname>DOUNOU</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194053</StudentNo>
+		<Name>DELIGHT IKECHUKWU</Name>
+		<Surname>AZUOGU</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194072</StudentNo>
+		<Name>DIAS</Name>
+		<Surname>MUKASH</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194104</StudentNo>
+		<Name>HAMAD KHALED DAOUD</Name>
+		<Surname>OWAIDA</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194127</StudentNo>
+		<Name>DANIEL</Name>
+		<Surname>CHANDA</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194130</StudentNo>
+		<Name>AHMAD QASIM</Name>
+		<Surname>ABDEL RAZZAQ BADER</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194140</StudentNo>
+		<Name>MUKHAMMADKODIR</Name>
+		<Surname>ZAINABIDINOV</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194156</StudentNo>
+		<Name>ANAR</Name>
+		<Surname>JALILOV</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194165</StudentNo>
+		<Name>ETINOSA BENEDICT</Name>
+		<Surname>IZEKOR</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194192</StudentNo>
+		<Name>BRENDAN CHUKWUDI</Name>
+		<Surname>CHUKWUEMEKA</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194222</StudentNo>
+		<Name>MOHAMMAD</Name>
+		<Surname>HASSAN</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194234</StudentNo>
+		<Name>ANTHONY AKPOVINO</Name>
+		<Surname>OLORI</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194279</StudentNo>
+		<Name>MUDASSIR</Name>
+		<Surname>JAMAL</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194314</StudentNo>
+		<Name>BAYANKHUU</Name>
+		<Surname>DAMDINSUREN</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194320</StudentNo>
+		<Name>IKHOGENEONE M</Name>
+		<Surname>IRUNE</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194356</StudentNo>
+		<Name>AZFAR</Name>
+		<Surname>SALEEM</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194372</StudentNo>
+		<Name>TAPIWANASHE ANDRIANNA</Name>
+		<Surname>DZORO</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194391</StudentNo>
+		<Name>MUSBAHU</Name>
+		<Surname>RABIU</Surname>
+		<Program>BSc IN COMPUTER ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194432</StudentNo>
+		<Name>TINASHE</Name>
+		<Surname>MAGAZENI</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194523</StudentNo>
+		<Name>KUDAKWASHE RUSSELL</Name>
+		<Surname>MHONDORO</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194535</StudentNo>
+		<Name>BARERA</Name>
+		<Surname>QASIM</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194540</StudentNo>
+		<Name>DAVID AONDOVER</Name>
+		<Surname>LAWRENCE-AZUA</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194570</StudentNo>
+		<Name>MOHAMMED NABIL</Name>
+		<Surname>ABUBAKAR</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194574</StudentNo>
+		<Name>AHTISHAM</Name>
+		<Surname>HABIB</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194581</StudentNo>
+		<Name>SULEIMAN IHSAN</Name>
+		<Surname>USMAN</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>194624</StudentNo>
+		<Name>BOO HUSSAIN JAMSHAID</Name>
+		<Surname>AMJAD</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>196056</StudentNo>
+		<Name>HIKMET</Name>
+		<Surname>ISKIFOGLU</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>20140002</StudentNo>
+		<Name>ABDUL-GANIY MOYOSORE</Name>
+		<Surname>LAWAL</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>21140123</StudentNo>
+		<Name>BAI</Name>
+		<Surname>TRAWALLY</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+	<Student>
+		<StudentNo>21140137</StudentNo>
+		<Name>HAFIZ</Name>
+		<Surname>BELLO</Surname>
+		<Program>BSc IN SOFTWARE ENGINEERING</Program>
+	</Student>
+</StudentList>
+

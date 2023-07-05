@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    
+</head>
+<style>
+    body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #6f9de2;
+  }
+
+  .border {
+    width: 350px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin-top: 200px;
+  }
+  
+  .login-form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .login-form img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .login-form p {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #99afd1;
+    border-radius: 3px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #497ece;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #497ece;
+  }
+</style>
+<body>
+    <div class="border">
+        <div class="login-form">
+            <img src="eul_logo.png" alt="school logo">
+            <br />
+            <h1>European University of Lefke</h1>
+            
+            <form action="register.php" method="post" id="login-form">
+                <p>Username</p>
+                <input type="text" name="name" placeholder="Username" id="name">
+                <p>Password</p>
+                <input type="password" name="studentNo" placeholder="Password" id="studentNo">
+                <br />
+                <br/>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('login-form').addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                var username = document.getElementById('name').value;
+                var password = document.getElementById('studentNo').value;
+
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4) {
+                        if (xhr.status === 200) {
+                            var xmlString = xhr.responseText.trim();
+                            var parser = new DOMParser();
+                            var xml = parser.parseFromString(xmlString, 'text/xml');
+                            var found = false;
+
+                            var students = xml.getElementsByTagName('Student');
+                            for (var i = 0; i < students.length; i++) {
+                                var xmlUsername = students[i].getElementsByTagName('Name')[0].textContent;
+                                var xmlPassword = students[i].getElementsByTagName('StudentNo')[0].textContent;
+
+                                if (username === xmlUsername && password === xmlPassword) {
+                                    found = true;
+
+                                    var studentData = {
+                                        StudentNo: xmlPassword,
+                                        Name: xmlUsername,
+                                        Surname: students[i].getElementsByTagName('Surname')[0].textContent,
+                                        Program: students[i].getElementsByTagName('Program')[0].textContent
+                                    };
+
+                                    var form = document.createElement('form');
+                                    form.method = 'post';
+                                    form.action = 'register.php';
+
+                                    for (var key in studentData) {
+                                        if (studentData.hasOwnProperty(key)) {
+                                            var input = document.createElement('input');
+                                            input.type = 'hidden';
+                                            input.name = key;
+                                            input.value = studentData[key];
+                                            form.appendChild(input);
+                                        }
+                                    }
+                                    document.body.appendChild(form);
+                                    form.submit();
+                                    break;
+                                }
+                            }
+                            if (!found) {
+                                alert('Invalid username or password. Please try again.');
+                            }
+                        } else {
+                            alert('Error occurred while processing the XML file.');
+                        }
+                    }
+                };
+                xhr.open('GET', 'student.xml', true);
+                xhr.send();
+            });
+        });
+    </script>
+</body>
+</html>
